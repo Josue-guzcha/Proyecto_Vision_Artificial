@@ -1,0 +1,15 @@
+# Datasets (son muy pesados)
+datasets/
+data/
+
+# Pesos del modelo entrenado (pueden ser >100MB)
+*.pt
+*.pth
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Carpetas de runs de YOLO
+runs/
